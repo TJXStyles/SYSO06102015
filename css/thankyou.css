@@ -1,0 +1,198 @@
+/*-------------------------------------------
+
+  	Title :  Shen Yun local 2015
+  	Usage :  Thank you page confirmation
+  	Edited:  2015-05-13
+
+---------------------------------------------
+
+  	1. main content
+  	2. responsive layout (736px)
+
+---------------------------------------------*/
+
+
+/*  1. main body
+---------------------------------------------*/
+#email-container {
+	padding: 40px 0 40px;
+	margin: 0 auto;
+	font-family: "Times New Roman", serif;
+	max-width: 770px;
+}
+
+#email-welcome-title {
+	text-align: center;
+}
+
+#email-welcome-title h3 {
+	border-top: 1px solid #010101;
+	border-bottom: 1px solid #010101;
+	text-transform: uppercase;
+	width: 100%;
+	display: inline;
+	font-size: 30px;
+}
+
+#email-welcome-title h2 {
+	color: #010101;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  padding: 20px 0;
+}
+
+#email-sub-menu {
+	position: relative;
+	border-top: 1px solid #010101;
+	border-bottom: 1px solid #010101;
+	display: inline-block;
+	width: 550px;
+}
+
+#email-sub-menu p {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.side-box {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: #010101;
+}
+	#email-thankyou-body-container,
+	#email-footer,
+	#email-sub-menu p {
+	font-family: Arial, sans-serif;
+	}
+
+#email-sub-menu .left {
+ top: 25%;
+ left: 5px;
+}
+
+#email-sub-menu .right {
+	right: 5px;
+	top: 25%;
+}
+
+#email-thankyou-body > p {
+  max-width: 660px;
+  font-size: 20px;
+  line-height: 1.25;
+  margin-top: 10px;
+}
+
+#email-thankyou-body-container,
+#email-footer {
+	font-size: 19px;
+  line-height: 1.25;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 35px 25px;
+}
+
+#email-thankyou-body-container {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.hr {
+	margin: 0 auto;
+	max-width: 550px;
+	border-bottom: 1px solid #010101;
+}
+
+#email-footer {
+	padding-top: 20px;
+  font-size: 17px;
+}
+
+.email-unsub {
+	margin-top: 20px;
+}
+
+/*  2. responsive layout (736px)
+---------------------------------------------*/
+
+@media screen and (max-width: 736px) {
+
+	#email-container {
+		padding: 90px 0 40px;
+		margin: 0 auto;
+		font-family: "Times New Roman", serif;
+		max-width: 330px;
+	}
+
+	#email-welcome-title h3 {
+		border-top: 1px solid black;
+		border-bottom: 1px solid #010101;
+		text-transform: uppercase;
+		width: 100%;
+		display: inline;
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+
+	#email-welcome-title h2 {
+		color: #010101;
+  	font-weight: 400;
+  	font-size: 35px;
+  	text-align: center;
+  	letter-spacing: -0.01em;
+  	padding: 15px 0;
+	}
+
+	#email-sub-menu {
+		position: relative;
+		border-top: 1px solid #010101;
+		border-bottom: 1px solid #010101;
+		display: inline-block;
+		width: 300px;
+	}
+
+	#email-sub-menu p {
+  	font-size: 14px;
+  	line-height: 1.25;
+  	width: 300px;
+  	padding: 5px 0;
+	}
+
+	#email-sub-menu .right,
+	#email-sub-menu .left {
+		top: 36%;
+		display: none;
+	}
+
+	#email-sub-menu .left{
+ 		left: 2px;
+	}
+
+	#email-sub-menu .right {
+		right: 2px;
+	}
+
+	#email-thankyou-body-container {
+		padding: 30px 10px;
+	}
+
+	#email-footer {
+		padding: 10px 10px;
+	}
+	#email-thankyou-body > p {
+		font-size: 16px;
+	}
+	#email-footer,
+	#email-thankyou-body > p {
+  	line-height: 1.25;
+  	margin-top: 10px;
+	}
+
+	#email-footer {
+		font-size: 14px;
+	}
+
+
+}

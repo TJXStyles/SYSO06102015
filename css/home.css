@@ -1,0 +1,426 @@
+﻿/*-------------------------------------------
+
+    Title :  Shen Yun local 2015
+    Usage :  Homepage
+    Edited:  2015-03-28
+
+---------------------------------------------
+
+    1. intro
+    2. sign up
+    3. download
+    4. responsive layout (736px)
+
+---------------------------------------------*/
+
+
+
+/*  1. intro
+---------------------------------------------*/
+
+#intro {
+	margin: 0 auto;
+	padding-top: 32px;
+	max-width: 770px;
+	}
+
+#intro h2 {
+	margin-bottom: 30px;
+	color: #010101;
+	font-weight: 400;
+	font-size: 48px;
+	font-family: "Times New Roman", serif;
+	text-align: center;
+	letter-spacing: -0.01em;
+	}
+
+#intro p {
+	margin: 0 auto;
+	max-width: 660px;
+	font-size: 18px;
+	line-height: 1.25;
+	}
+
+#intro p + p {
+	margin-top: 1.2em;
+	font-weight: 700;
+	}
+
+/* changes */
+
+.main-intro {
+	border-bottom: 2px solid #614013;
+	padding-bottom: 30px;
+}
+.col-1 {
+	float: right;
+	max-width: 65%;
+	border-left: 1px solid black;
+	padding-left: 20px;
+}
+
+.col-2 {
+	position: relative;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	max-width: 30%;
+	font-weight: 700;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right:10px;
+
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 40px;
+}
+.col-2 p {
+  top: 50%;
+}
+
+.col-3 {
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	max-width: 17%;
+	padding-top:40px;
+	
+}
+
+.intro-sub {
+	clear:both;
+	min-height: 200px;
+}
+
+.journey-image-container {
+	text-align: center;
+}
+
+.journey h1 {
+	font-size: 48px;
+	text-align: center;
+	font-family: "Times New Roman", serif;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.container {
+	max-width: 460px;
+	margin: 0 auto;
+	
+}
+.inner-container {
+	padding-left: 25px;
+	border-left: 1px solid black;
+}
+
+.container p {
+	margin-bottom: 20px;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+.play {
+	display: inline-block;
+  color: #7143a0;
+  font-size: 18px;
+  white-space :  nowrap;
+}
+
+.play:before {
+	content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+  width: 39px;
+  height: 39px;
+  background: url(../images/sprite.png) no-repeat 0 -332px;
+}
+
+.journey .dl {
+	position: relative;
+  float: right;
+  margin-top: 5px;
+  padding: 5px 5px 4px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "HelveticaNeue CondenseBold", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  -pie-background: rgba(113, 67, 160, 0.9);
+  background: rgba(113, 67, 160, 0.9);
+  border-radius: 4px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 780px;
+	padding-top: 25px;
+}
+
+.hr {
+	margin: 0 auto;
+	border-top:1px solid black;
+	max-width: 780px;
+}
+
+.container dl{
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 25px;
+}
+
+.giveaway-title h1 {
+	font-size: 48px;
+	text-align: center;
+	font-family: "Times New Roman", serif;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+/*  2. sign up
+---------------------------------------------*/
+
+#signup {
+	margin: 60px auto 0;
+	padding: 25px 0 23px;
+	max-width: 430px;
+	border: solid #614013;
+	border-width: 1px 0;
+	}
+
+#signup a {
+	position: relative;
+	float: left;
+	margin-top: 3px;
+	padding: 10px 10px 9px;
+	color: #fff;
+	font-size: 20px;
+	font-family: "HelveticaNeue CondenseBold", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	-pie-background: rgba(113, 67, 160, 0.9);
+	     background: rgba(113, 67, 160, 0.9);
+	border-radius: 4px;
+	behavior: url(js/PIE.htc);
+	}
+
+#signup p {
+	float: right;
+	width: 72%;
+	width: -webkit-calc(100% - 120px);
+	width:         calc(100% - 120px);
+	color: #7143a0;
+	font-size: 14px;
+	line-height: 1.25;
+	}
+
+#signup:after {
+	content: "";
+	clear: both;
+	display: block;
+	}
+
+
+
+/*  3. download
+---------------------------------------------*/
+
+#download {
+	margin: 0 auto;
+	max-width: 430px;
+	}
+
+#download ul li {
+	position: relative;
+	padding: 70px 0 60px;
+	border-top: 1px solid #614013;
+	}
+
+#download ul li:first-child + li {
+	padding: 80px 0 65px;
+	}
+
+#download ul li:first-child {
+	border-top: none;
+	}
+
+#download ul li img {
+	position: absolute;
+	}
+
+#download ul li:first-child img {
+	top: 30px;
+	left: -30px;
+	}
+
+#download ul li:first-child + li img {
+	top: 30px;
+	left: -5px;
+	}
+
+#download ul li .right {
+	position: relative;
+	float: right;
+	width: -webkit-calc(100% - 110px);
+	width:         calc(100% - 110px);
+	max-width: 320px;
+	}
+
+#download ul li .right p {
+	margin-bottom: 14px;
+	font-size: 18px;
+	}
+
+#download ul li .right .play {
+	display: inline-block;
+	color: #7143a0;
+	font-size: 18px;
+	white-space:normal ;
+	}
+
+#download ul li .right .play:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+	width: 39px;
+	height: 39px;
+	background: url(../images/sprite.png) no-repeat 0 -332px;
+	}
+
+#download ul li .right .dl {
+	position: relative;
+	float: right;
+	margin-top: 41px;
+	padding: 5px 5px 4px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: "HelveticaNeue CondenseBold", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	-pie-background: rgba(113, 67, 160, 0.9);
+	     background: rgba(113, 67, 160, 0.9);
+	border-radius: 4px;
+	behavior: url(js/PIE.htc);
+	}
+
+#download ul li:after {
+	content: "";
+	clear: both;
+	display: block;
+	}
+
+
+/*  4. responsive layout (736px)
+---------------------------------------------*/
+
+@media screen and (max-width: 736px) {
+
+/*  1. intro  */
+
+	#intro {
+		padding-top: 85px;
+		max-width: 288px;
+		}
+
+	#intro h2 {
+		margin-bottom: 16px;
+		font-size: 35px;
+		}
+
+	#intro p {
+		font-size: 14px;
+		line-height: 1.25;
+		}
+
+	#intro p + p {
+		margin-left: 0;
+		max-width: 210px;
+		}
+
+
+	/*  2. sign up  */
+
+	#signup {
+		margin-top: 50px;
+		max-width: 288px;
+		}
+
+	#signup a {
+		margin-top: 23px;
+		}
+
+
+	/*  3. download  */
+
+	#download {
+		max-width: 288px;
+		}
+
+	#download ul li {
+		padding: 50px 0 43px;
+		}
+
+	#download ul li:first-child + li {
+		padding-top: 60px;
+		}
+
+	#download ul li:first-child img {
+		top: 35px;
+		left: 5px;
+		}
+
+	#download ul li:first-child + li img {
+		top: 38px;
+		left: 23px;
+		}
+
+	#download ul li .right .play {
+		margin-left: -5px;
+		}
+
+	#download ul li .right .dl {
+		margin-top: 11px;
+		}
+
+		/* changes */
+
+	.journey h1 {
+		font-size: 35px;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.inner-container {
+		border: none;
+	}
+
+	.col-1 {
+		max-width: 430px;
+		border: none;
+	}
+
+	.col-2, .col-3 {
+		display: block;
+		max-width: 430px;
+	}
+
+	.col-2 {
+		display: none;
+	}
+
+	.col-1,
+	.col-2,
+	.col-3 {
+		padding-left: 0;
+		padding-right: 0;
+		/*padding-top: 25px;*/
+		float: none;
+	}
+
+	.container {
+		max-width: 288px;
+	}
+}
