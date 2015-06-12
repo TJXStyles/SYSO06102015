@@ -122,7 +122,7 @@
 
 .play {
 	display: inline-block;
-  color: #7143a0;
+  color: #b65c27;
   font-size: 18px;
   white-space :  nowrap;
 }
@@ -148,8 +148,8 @@
   font-family: "HelveticaNeue CondenseBold", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
-  -pie-background: rgba(113, 67, 160, 0.9);
-  background: rgba(113, 67, 160, 0.9);
+  -pie-background: #b65c27;
+  background: #b65c27;
   border-radius: 4px;
 }
 
@@ -221,14 +221,206 @@
 	display: block;
 	}
 
+/* header */
+.emailblast {
+	background-color: #fff9ef;
+}
+
+.bannertop {
+	height: 75px;
+	background: url('../images/top_banner.jpg');
+	padding-top: 20px;
+}
+
+.banner-text {
+	text-align: center
+}
+
+.banner-text h1 {
+	vertical-align: middle;
+	font-size: 35px;
+	display: inline-block;
+ 	margin-right: 25px;
+ 	color: #fff;
+ 	text-shadow: 1px 0 4px #666;
+}
+
+.btn1-container {
+	width: 120px;
+	display: inline-block;
+	background-color: #ffba01;
+	border-radius: 7px;
+	box-shadow: .5px .5px #000;
+	padding: 5px 10px;
+}
+
+.journey-container {
+	max-width: 460px;
+	float: left;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.container2 {
+	max-width: 480px;
+	margin-bottom: 35px;
+}
+
+.inner-container-no-b {
+	border: none;
+}
+
+.btn-group {
+	float: right;
+}
+
+.journey-container p {
+	margin-bottom: 20px;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+#main-email {
+	margin: 0 auto;
+	width: 780px;
+}
+
+.buynow-column p:last-child {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+a.btn1 {
+  text-transform: uppercase;
+	color: #9b4308;
+	width: 50px;
+	text-decoration: none;
+}
+
+.section2 p {
+	font-size: 15px;
+}
+
+.p {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+small {
+	font-size: 12px;
+	font-weight: 100;
+}
+.poster-column {
+	width: 49%;
+}
+
+h1.father-header {
+	color: #9b4308;
+	font-size: 26px;
+}
+
+.fathersday {
+	margin-top: 40px;
+}
+
+.subtitle {
+	font-weight: 700;
+}
+
+.cap {
+	text-transform: uppercase;
+}
+
+.poster {
+	/*width: 80%;*/
+	text-align: center;
+	padding-right: 25px;
+}
+
+.btn2-container {
+	background: #b65c27;
+	-pie-background: #b65c27;
+	width: 120px;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 8px 10px;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 7px;
+	box-shadow: .5px .5px #000;
+}
+
+.more-music {
+	margin: 10px auto;
+}
+
+.join-shenyun {
+	margin: 10px auto;
+}
+
+.sub-info {
+	text-align: center;
+	font-size: 15px;
+}
+
+
+.buynow-column p {
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.center {
+	text-align: center;
+}
+
+.poster-column,
+.buynow-column {
+	float: left;
+}
+
+.poster-column {
+	width: 50%;
+}
+
+.border-top {
+	border-top: 1px solid #000;
+}
+.buynow-column {
+	width: 35%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.btn2 {
+	background-color: #b65c27;
+}
+
+.journey .emperor-title {
+	text-align: left;
+	width: 480px;
+}
+
+
+.footer {
+	margin-top: 15px;
+	background-color: #b65c27;
+	height: 80px;
+}
 
 
 /*  3. download
 ---------------------------------------------*/
 
 #download {
-	margin: 0 auto;
-	max-width: 430px;
+	max-width: 480px;
 	}
 
 #download ul li {
@@ -274,7 +466,7 @@
 
 #download ul li .right .play {
 	display: inline-block;
-	color: #7143a0;
+	color: #b65c27;
 	font-size: 18px;
 	white-space:normal ;
 	}
@@ -300,8 +492,8 @@
 	font-family: "HelveticaNeue CondenseBold", sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
-	-pie-background: rgba(113, 67, 160, 0.9);
-	     background: rgba(113, 67, 160, 0.9);
+	-pie-background: #b65c27;
+	     background: #b65c27;
 	border-radius: 4px;
 	behavior: url(js/PIE.htc);
 	}
@@ -360,11 +552,11 @@
 		}
 
 	#download ul li {
-		padding: 50px 0 43px;
+		padding: 50px 0 120px;
 		}
 
 	#download ul li:first-child + li {
-		padding-top: 60px;
+		padding-top: 675x;
 		}
 
 	#download ul li:first-child img {
@@ -422,5 +614,60 @@
 
 	.container {
 		max-width: 288px;
+	}
+
+		.bannertop {
+		height: 120px;
+	}
+
+	#main-email {
+		width: 100%;
+	}
+
+	.banner-text h1 {
+		padding-bottom: 10px;
+	}
+
+	.poster-column,
+	.buynow-column,
+	.btn-group,
+	.section2,
+	.journey-container,
+	.container2,
+	#download {
+		width: 400px;
+		margin: 0 auto;
+		float: none;
+		clear: both;
+		margin-bottom: 35px;
+	}
+
+	.buynow-column,
+	.journey-container {
+		margin-top: 40px;
+	}
+
+	.section2 {
+		width: 480px;
+		margin: 0 auto;
+	}
+	.journey-container {
+
+	}
+
+	.btn2-container {
+		margin: 0 auto;
+		float: none;
+		clear: both;
+		width: 120px;
+		margin-bottom: 10px;
+	}
+	
+	.sub-info {
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+	#download {
+		max-width: 780px;
 	}
 }
