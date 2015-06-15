@@ -530,8 +530,10 @@ h1.father-header {
 	#intro p + p {
 		margin-left: 0;
 		max-width: 210px;
-		}
-
+	}
+	.poster-column {
+		text-align: center;
+	}
 
 	/*  2. sign up  */
 
@@ -616,7 +618,7 @@ h1.father-header {
 		max-width: 288px;
 	}
 
-		.bannertop {
+	.bannertop {
 		height: 120px;
 	}
 
@@ -635,7 +637,7 @@ h1.father-header {
 	.journey-container,
 	.container2,
 	#download {
-		width: 400px;
+		width: 80%;
 		margin: 0 auto;
 		float: none;
 		clear: both;
@@ -645,14 +647,6 @@ h1.father-header {
 	.buynow-column,
 	.journey-container {
 		margin-top: 40px;
-	}
-
-	.section2 {
-		width: 480px;
-		margin: 0 auto;
-	}
-	.journey-container {
-
 	}
 
 	.btn2-container {
