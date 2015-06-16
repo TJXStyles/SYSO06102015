@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="" />
+	<title>Sign Up - Shen Yun Symphony Orchestra</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/signup.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+
+	<div id="main">
+
+		<div id="signup">
+			<h2>Yes, sign me up for<br /> <em>Friends of Shen Yun Toronto</em></h2>
+			<form method="post" action="">
+				<div>
+					<input type="text" placeholder="First name" />
+				</div>
+				<div>
+					<input type="text" placeholder="Last name" />
+				</div>
+				<div>
+					<input type="email" placeholder="Email" />
+				</div>
+				<div>
+					<input type="tel" placeholder="Phone number" />
+				</div>
+				<div>
+					<input  id="newsletter" type="checkbox" />
+					<label for="newsletter">I would like to receive more information about the music, instruments, concert dates, and special offers.</label>
+				</div>
+				<div>
+					<input type="submit" id="btnSubmit" value="Sign Up" name="btnSubmit">
+				</div>
+                <div>
+                    <asp:Label ID="lblMessage" runat="server" Text="" Font-Size="Large" ></asp:Label>
+				</div>
+                <div>
+                    <p>&nbsp;</p><br />
+                    <p>Friends of Shen Yun Toronto</p>
+                    <p >344 Consumers Road, Toronto, ON M2J 1P8</p>
+                    <p >Phone: 416.271.8436</p><br />
+                    <p >Email: info@torshow.com</p>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+</body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54458665-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

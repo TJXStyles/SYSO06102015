@@ -97,7 +97,7 @@
 }
 
 .journey h1 {
-	font-size: 48px;
+	font-size: 30px;
 	text-align: center;
 	font-family: "Times New Roman", serif;
 	font-weight: normal;
@@ -283,7 +283,7 @@
 .journey-container p {
 	margin-bottom: 20px;
 	margin-bottom: 25px;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 #main-email {
